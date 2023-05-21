@@ -1,4 +1,21 @@
 h1{
-    color: blue;
+    color: #F47701;
 }
 /* #F47701 */
+.container_fluid{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.row{
+    min-height: 320px;
+    border:1px solid black;
+
+}
+/* #212529 */
+/* #ffe4c0
+
+#ab6301
+#014bf4
+#0135ab */
+
+/* possible blusish gray #10162f */
