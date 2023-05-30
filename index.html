@@ -3,65 +3,580 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bill Wilkin</title>
-    <!-- bootstrap  -->
+    <title>Bill Wilkin - Full Stack Software Engineer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/css/style.css">
+
+    <style>
+    </style>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="navbar row">
-            <nav>
-                <a href="https://www.flaticon.com/free-icons/coding" class="navbar-brand" href="#" title="coding icons">Coding icons created by Freepik - Flaticon</a>
-                <a >
-                    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                    Bill Wilkin
-                  </a>
-                <ul>
-                    <li><a href="#"></a>About</li>
-                    <li><a href="#"></a>Projects</li>
-                    <li><a href="#"></a>Skills</li>
-                    <li><a href="#"></a>Education</li>
-                    <li><a href="#"></a>Experience</li>
-                    <li><a href="#"></a>Courses</li>
-                    <li><a href="#"></a>Contact</li>
-                    
-                </ul>
-            </nav>
-        </div>
-        <div class="row">
-            <h2>test </h2>
-        </div>
-    </div>
-    <div class="row" id="about-me">
-
-    </div>
-    <div class="row" id="projects">
-
-    </div>
-    <div class="row" id="skills">
-
-    </div>
-    <div class="row" id="education"></div>
-    <div class="row" id="experience"></div>
-    <div class="row" id="courses"></div>
-    <div class="row" id="contact">
+    <nav class="sticky">
         <ul>
-            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                        <path
-                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-                    </svg></a></li>
+            <li class="nav-list"><a href="#about">About Me</a></li>            
+            <li class="nav-list"><a href="#skills">Skills</a></li>
+            <li class="nav-list"><a href="#projects">Projects</a></li>
+            <li class="nav-list"><a href="#education">Education</a></li>
+            <li class="nav-list"><a href="#experience">Experience</a></li>
+            <li class="nav-list"><a href="#courses">Courses</a></li>
+            <li class="nav-list"><a href="#contact">Contact</a></li>
         </ul>
+    </nav>
+    <header>
+        <h1>Bill Wilkin</h1>
+        <h3>“Connecting People to Technology”</h3>
+        <p>Los Angeles, CA | <a href="https://www.linkedin.com/in/bill-wilkin-588b05187/">LinkedIn</a> | <a
+                href="https://github.com/bill-wilkin">Github</a>
+        </p>
+    </header>
+    <div id="about" class="parallax">
+        <div class="section-title">
+            <h2>About Me</h2>
+
+        </div>
     </div>
+
+    <div class="row">
+        <div class="col-lg-3 col-m2-3 offset-md-2 offset-lg-2 col-sm">
+            <img src="./static/img/Profile cropped.jpeg" alt="" id="profile-pic">
+        </div>
+        <div class="col-lg-4 col-sm">
+            <p class="indent"> I am a second career Software Engineer. I was a teacher/instructor classically trained in theology. That
+                all changed when I read a book called, <em>Automate
+                    the Boring Stuff with Python</em> by AL SWEIGART and nothing has been the same since.</p>
+            <p class="indent"> I started
+                teaching myself Python in order to accomplish work tasks at a fraction of what I had been
+                doing. I loved writing code to make my day to day life better but I wanted more. I wanted to build
+                websites. I wanted to user microcontrollers/microprocessors like Arduino and Raspberry Pi to make
+                everything smart.</p> 
+                <p class="indent">I attended Coding Dojo bootcamp where I graduated with highest honors. Shortly
+                after, due to my teaching/instruction background, I began teaching for them. After 1 1/2 years of
+                teaching the Python and Java stacks, I accepted a position at <span><img id = "twilio-logo" src="/bill-wilkin.github.io/static/img/work/Twilio-logo-red.svg.png" alt=""></span> as a Customer Succes Engineer
+                where I work to this day.</p>
+        </div>
+        <div class="col-lg-2 col-sm">
+            <img id= "atbs" src="./static/img/atbs.jpg" alt="Cover of Automate the Boring Stuff with Python by Al Sweigart">
+        </div>
     </div>
+
+    <div id="skills" class="parallax">
+        <div class="section-title">
+            <h2>Skills</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-1 offset-3">
+            <ul>
+                <li>Ajax</li>
+                <li>API's</li>
+                <li>Apache</li>
+                <li>Arduino</li>
+                <li>AWS</li>
+                <li>Bootstrap</li>
+                <li>CSS</li>
+                
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>Django</li>
+                <li>Express</li>
+                <li>Flask</li>
+                <li>Git</li>
+                <li>Github</li>
+                <li>Google App Script</li>
+                <li>Gunicorn</li>
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                
+                <li>HTML</li>
+                <li>Java</li>
+                <li>Javascript</li>
+                <li>Jquery</li>
+                <li>MongoDb</li>
+                <li>MySQL</li>
+                <li>Nginx</li>
+                
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>Node</li>
+                <li>Numpy</li>
+                <li>OpenCV</li>
+                <li>Pandas</li>
+                <li>PostgreSQL</li>
+                <li>Postman</li>
+                <li>Python</li>
+                
+            </ul>
+        </div>
+        <div class="col-1">
+            <ul>
+                <li>React</li>
+                <li>Rest</li>
+                <li>Spring Boot</li>
+                <li>Terminal</li>
+            </ul>
+        </div>
+                
+                
+
+            
+    </div>
+
+
+    <div id="projects" class="parallax">
+
+        <div class="section-title">
+            <h2>Projects</h2>
+        </div>
+    </div>
+
+    <div class="row project" id="ta_buddy">
+        <div class="lang-icons col-2">
+            <img src="./static/img/skills/icons8-python-color/icons8-python-144.png" alt="Python logo">
+            <img src="./static/img/skills/icons8-flask-ios-16/icons8-flask-150.png" alt="Flask logo">
+            <img src="./static/img/skills/icons8-mysql-color/icons8-mysql-144.png" alt="Flask logo">
+            <img src="./static/img/skills/ajax.png" alt="AJAX logo">
+
+        </div>
+        <div class="col-5 ">
+            <h3 class=project-title>TA Buddy</h3>
+            <h4>Help Desk Manager and Effeciency Tool</h4>
+            <p>When I taught software development online, I designed a tool that would help the Teaching Assistant (TA)
+                staff not only be able to access resources more quickly, but also to be able to record information about
+                the students that they were helping. The administration was able to make many business level decisions
+                from this information:</p>
+            <ul>
+                <li>It influenced what hours we staffed our TA's as we could now identify what days/times students need
+                    the most help.</li>
+                <li>The curriculum team used the data to know what assignments were unclear or confusing.</li>
+                <li>The instruction team used the data to identify which lectures to emphasize.</li>
+            </ul>
+            <div class="row actions-icon-list">
+                <div>
+                    <a href="https://youtu.be/fXJjxJdD2QY" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-youtube-ios-16-filled/icons8-youtube-150.png"
+                            alt="YouTube Icon" rel="noopener noreferre"></a>
+                    <p class="tooltiptext">Watch Demo</p>
+                </div>
+                <div>
+                    <a href="#ta_buddy"><img class="action-icon"
+                        src="./static/img/skills/icons8-github-windows-11-color/icons8-github-144.png"
+                        alt="Github Icon"></a>
+                    <p class="tooltiptext">Github Repo Unavailable Due to Proprietary code.</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <div class="video-container col-4">
+                <iframe width="420" height="315"
+                    src="https://youtube.com/embed/fXJjxJdD2QY?autoplay=1&mute=1&modestbranding=1&disablekb=1&controls=0&loop=1&playlist=fXJjxJdD2QY"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row project">
+        <div class="lang-icons col-2">
+            <img src="./static/img/skills/icons8-python-color/icons8-python-144.png" alt="Python logo">
+            <img src="./static/img/skills/icons8-django-material-outlined/icons8-django-96.png" alt="">
+            <img src="./static/img/skills/icons8-jquery-ios-16-filled/icons8-jquery-100.png" alt="">
+            <img src="./static/img/skills/icons8-rest-api-64.png" alt="">
+
+
+        </div>
+        <div class="col-5 ">
+            <h3 class=project-title id = "park">Park It</h3>
+            <h4>Parking Records Management</h4>
+            <p>This was my first full stack project. It was written in Django and utilized Google API's and Jquery.
+            </p>
+            <p>
+                Park It is a parking records management that has both a customer facing side that
+                allows users to register their vehicles, obtain the proper permit for the appropriate lots, and pay for
+                any tickets that they may have. The admin portal allows for the citing of vehcicles along with full CRUD
+                (Create Read Update Delete) of all entities.</p>
+            <div class="row actions-icon-list">
+                <div>
+                    <a href="https://youtu.be/IpWDl_S4TA0" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-youtube-ios-16-filled/icons8-youtube-150.png"
+                            alt="YouTube Icon" rel="noopener noreferre"></a>
+                    <p class="tooltiptext">Watch Demo</p>
+                </div>
+                <div>
+                    <a href="#park"><img class="action-icon"
+                        src="./static/img/skills/icons8-github-windows-11-color/icons8-github-144.png"
+                        alt="Github Icon"></a>
+                    <p class="tooltiptext">Github Repo Available Upon Request</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-3">
+            <div class="video-container col-4">
+                <iframe width="420" height="315"
+                    src="https://youtube.com/embed/IpWDl_S4TA0?autoplay=1&mute=1&modestbranding=1&disablekb=1&controls=0&loop=1&playlist=IpWDl_S4TA0"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row project">
+        <div class="lang-icons col-2">
+            <img src="./static/img/skills/icons8-python-color/icons8-python-144.png" alt="Python logo">
+            <img src="./static/img/skills/icons8-django-material-outlined/icons8-django-96.png" alt="">
+            <img src="./static/img/skills/icons8-javascript-color/icons8-javascript-144.png" alt="">
+
+        </div>
+        <div class="col-5 ">
+            <h3 class=project-title>Typer</h3>
+            <h4>Typing Speed Calculator</h4>
+            <p>Typer allow a user to test and improve their typing speed by typing out inspirational quotes. Words
+                per minute is calculated along with number of errors made to provide an accuracy percentage.</p>
+            <div class="row actions-icon-list">
+                <div>
+                    <a href="https://youtu.be/10bBMSyG4bM" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-youtube-ios-16-filled/icons8-youtube-150.png"
+                            alt="YouTube Icon" rel="noopener noreferre"></a>
+                    <p class="tooltiptext">Watch Demo</p>
+                </div>
+                <div>
+                    <a href="https://github.com/bill-wilkin/typer" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-github-windows-11-color/icons8-github-144.png"
+                            alt="YouTube Icon"></a>
+                    <p class="tooltiptext">Github Repo</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-3">
+            <div class="video-container col-4">
+                <iframe width="420" height="315"
+                    src="https://youtube.com/embed/rBn0MB3l7gU?autoplay=1&mute=1&modestbranding=1&disablekb=1&controls=0&loop=1&playlist=rBn0MB3l7gU&"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row project" id='snail'>
+        <div class="lang-icons col-2">
+            <img src="./static/img/skills/icons8-python-color/icons8-python-144.png" alt="Python logo">
+            <img src="./static/img/skills/icons8-flask-ios-16/icons8-flask-150.png" alt="Flask logo">
+            <img src="./static/img/skills/icons8-bootstrap-color/icons8-bootstrap-144.png" alt="">
+            <img src="./static/img/skills/icons8-api-64.png" alt="">
+        </div>
+        <div class="col-5 ">
+            <h3 class=project-title>Snail Tracker</h3>
+            <h4>Geo Location Distance Calculator</h4>
+            <p>The thought experiment is intriguing: Would you accept 10 million dollars in exchange to allow yourself
+                to
+                be hunted by an unstoppable snail the rest of your life. You will surely die if the snail ever touches
+                you. The snail is magic and can pass through solid matter and cannot be trapped or stopped. </p>
+            <p>Snail tracker uses Google
+                API to stay one step ahead by calculating how long it will take the snail to reach you based on the
+                distance between where you are and the snail's last position.</p>
+            <div class="row actions-icon-list">
+                <div>
+                    <a href="https://youtu.be/GqarYAdky_I" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-youtube-ios-16-filled/icons8-youtube-150.png"
+                            alt="YouTube Icon" rel="noopener noreferre"></a>
+                    <p class="tooltiptext">Watch Demo</p>
+                </div>
+                <div>
+                    <a href="https://github.com/bill-wilkin/snail_tracker" target="_blank"><img class="action-icon"
+                            src="./static/img/skills/icons8-github-windows-11-color/icons8-github-144.png"
+                            alt="Github Icon"></a>
+                    <p class="tooltiptext">Github Repo</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-3">
+            <div class="video-container col-4">
+                <iframe width="420" height="315"
+                    src="https://youtube.com/embed/GqarYAdky_I?autoplay=1&mute=1&modestbranding=1&disablekb=1&controls=0&loop=1&playlist=GqarYAdky_I"
+                    frameborder="0" allowfullscreen>
+                </iframe>
+                <div class="video-overlay"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="education" class="parallax">
+        <div class="section-title">
+            <h2>Education</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/cd.png" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='education-title'>Coding Dojo</h3>
+            <p>Full Stack Web Development Program</p>
+            <p>Oct 2020</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/fuller-theological-seminary-logo.png" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='education-title'>Fuller Theological Seminary</h3>
+            <p>MDiv</p>
+            <p>June 2015</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/ccu.png" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='education-title'>Colorado Christian University</h3>
+            <p>BA Youth Ministry | Leadership</p>
+            <p>June 2008</p>
+        </div>
+    </div>
+
+
+
+
+    <div id="experience" class="parallax">
+        <div class="section-title">
+            <h2>Work Experience</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/Twilio-logo-red.svg.png" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='work-title'>Twilio</h3>
+            <p>Remote Customer Success Engineer</p>
+            <p>July 2022 - Present</p>
+            <ul>
+                <li>Helped clients utilize Twilio/Segment products across multiple platforms to enhance customer
+                    engagement.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/cd.png" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='work-title'>Coding Dojo</h3>
+            <p>Instructor</p>
+            <p>Jan 2021 - July 2022</p>
+            <ul>
+                <li>Educated adult professionals on programming and coached them to achieve their goals in web
+                    development, Python, and Java.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class='icon' src="./static/img/work/fuller2.jpeg" alt="coding dojo logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h3 class='work-title'>Fuller Theological Seminary</h3>
+            <p>Campus Safety Corporal</p>
+            <p>2017-2021</p>
+            <ul>
+                <li>Designed and integrated the parking program, resulting in increased revenue by $40,000 in
+                    the first year.</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div id="courses" class="parallax">
+        <div class="section-title">
+            <h2>Courses</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class="icon" src="./static/img/LinkedIn-Learning.jpg" alt="LinkedIn Learning Logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h2>LinkedIn</h2>
+            <ul>
+                <li>Advanced Python</li>
+                <li>Machine Learning with Python: Foundations</li>
+                <li>Electronics Foundations: Fundamentals</li>
+                <li>Electronics Foundations: Basic Circuits</li>
+                <li>Electronics Foundations: Semiconductor Devices</li>
+                <li>Learning Arduino: Foundations</li>
+                <li>Learning Arduino: Interfacing with Hardware</li>
+                <li>Learning Arduino: Interfacing with Analog Devices</li>                
+                <li>Customer Service: Handling Abusive Customers</li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class="icon" src="./static/img/icons8-codecademy-an-online-platform-offers-free-coding-classes-programming-languages-96.png" alt="Codecademy Logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h2>CodeCademy</h2>
+            <ul>
+                <li>Learn JavaScript
+                </li>
+                <li>Learn React: Introduction
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1 offset-lg-4 col-sm">
+            <img class="icon" src="./static/img/icons8-coursera-120.png" alt="Coursera Logo">
+        </div>
+        <div class="col-lg-4 offset-lg-1 col-sm">
+            <h2>Coursera</h2>
+            <ul>
+                <li>Creating Interactive Dashboards with Streamlit and Python</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="contact" class="parallax">
+        <div class="section-title">
+            <h2>Contact</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 offset-lg-3 col-sm" id="contact-icons">
+            <a href="mailto:billawilkin@gmail.com"><img src="./static/img/icons8-mail-96.png" alt="email icon"></a>
+            <a href="https://www.linkedin.com/in/bill-wilkin-588b05187/"><img src="./static/img/skills/icons8-linkedin-ios-16-filled/icons8-linkedin-150.png" alt="LinkedIn Icon"></a>
+            <a href="https://github.com/bill-wilkin"><img src="./static/img/skills/icons8-github-windows-11-color/icons8-github-144.png" alt="Github Icon"></a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy Bill Wilkin 2023</p>
+        <button id="credits-expand" href="#">Image Credits</button>
+
+        <div id="credits" style="display: none;">
+            <ul>
+                <li>Icons by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@jorgedevs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jorge
+                        Ramirez</a> on <a
+                        href="https://unsplash.com/photos/TZUyjkPbX8U?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@vishnumaiea?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Vishnu
+                        Mohanan</a> on <a
+                        href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@nasa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">NASA</a>
+                    on <a
+                        href="https://unsplash.com/s/photos/technology?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@harrisonbroadbent?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Harrison
+                        Broadbent</a> on <a
+                        href="https://unsplash.com/s/photos/raspberry-pi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                <li><a target="_blank" href="https://icons8.com/icon/40253/jquery">JQuery</a> icon by <a target="_blank"
+                        href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/mUBILbYvUMq8/django">Django</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/39858/mysql-logo">mysql</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/UFXRpPFebwa2/mysql-logo">mysql</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/qGUfLiYi1bRN/my-sql">mysql</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/77694/sql">SQL</a> icon by <a target="_blank"
+                        href="https://icons8.com">Icons8</a></li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@kazuend?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">kazuend</a>
+                    on <a
+                        href="https://unsplash.com/photos/LVdiXyu2eTc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@jasongoodman_youxventures?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason
+                        Goodman</a> on <a
+                        href="https://unsplash.com/photos/Oalh2MojUuk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@epicantus?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daria
+                        Nepriakhina 🇺🇦</a> on <a
+                        href="https://unsplash.com/photos/zoCDWPuiRuA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li>Photo by <a
+                        href="https://unsplash.com/de/@vorosbenisop?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Benjamin
+                        Voros</a> on <a
+                        href="https://unsplash.com/wallpapers/nature/autumn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li><a target="_blank" href="https://icons8.com/icon/DZqTzsR-uixC/api">API</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/54888/rest-api">Rest API</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/84710/bootstrap">Bootstrap</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/37326/youtube">YouTube</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/AZOZNnY73haj/github">GitHub</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/8808/linkedin">LinkedIn</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@caaaaaaaaaio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Caio
+                        Silva</a> on <a
+                        href="https://unsplash.com/photos/C7RFkKvThG4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </li>
+                <li><a target="_blank" href="https://icons8.com/icon/11670/arduino">Arduino</a> icon by <a
+                        target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li>Photo by <a
+                        href="https://unsplash.com/@ptrikutam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pavan
+                        Trikutam</a> on <a
+                        href="https://unsplash.com/photos/71CjSSB83Wo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    </a>
+                </li>
+                <li><a target="_blank" href="https://icons8.com/icon/HnQYftvo88pe/coursera">Coursera</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/Ed6arZuJLj6v/codecademy-an-online-platform-offers-free-coding-classes-programming-languages">Codecademy an online platform offers free coding classes programming languages</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+                <li><a target="_blank" href="https://icons8.com/icon/OumT4lIcOllS/mail">Mail</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
+            </ul>
+        </div>
+
+    </footer>
+    <script src="static/js/script.js"></script>
+
 </body>
-<script src="static/js/script.js"></script>
 
 </html>
