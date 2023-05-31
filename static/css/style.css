@@ -279,3 +279,49 @@ footer > button {
 
 /* Orange #F47701
 Gray #212529 */
+
+/* Mobile sizing */
+@media screen and (max-width: 575px){
+    .action-icon{
+        width: 50%;
+    }
+    .lang-icons{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .lang-icons > img{
+        width: 15%;
+    }
+    .video-container{
+        width: 100%;
+    }
+    iframe{
+        width: 100%;
+        height: auto;
+        /* display: none; */
+    }
+    .icon-center{
+        text-align: center;
+    }
+    p{
+        padding: 15px;
+        margin-top: 20px;
+    }
+    .video-overlay, .video-container, iframe{
+        display: none;
+    }
+    .sticky{
+        width: 100vw;
+    }
+    .sticky > ul{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+    header{
+        margin-top: 80px;
+    }
+    #profile-pic{
+        width: 75%;
+    }
+}
